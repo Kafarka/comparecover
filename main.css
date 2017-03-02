@@ -1,0 +1,200 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: -15px;
+  margin-left: 15px;
+}
+
+#header {
+  text-align: center;
+  padding: 3em 0 3em 0;
+  margin: 0;
+}
+
+/* navbar */
+.navbar-default {
+  background-color: #3AA3D4;
+  border-color: #3aa3d4;
+  margin: 0;
+}
+.navbar-default .navbar-brand {
+  color: white;
+
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #E5ED73;
+
+}
+.navbar-default .navbar-text {
+  color: white;
+  font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #E5ED73;
+
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #206288;
+
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: white;
+
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #E5ED73;
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #E5ED73;
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #E5ED73;
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3aa3d4;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3aa3d4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: white;
+}
+.navbar-default .navbar-link {
+  color: white;
+}
+.navbar-default .navbar-link:hover {
+  color: #E5ED73;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #E5ED73;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #E5ED73;
+    background-color: #3aa3d4;
+  }
+}
+
+#jumbotron {
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1478041902402-cd7312bffaf5?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-blend-mode: screen;
+  color: white;
+}
+
+/* Quotes Bar */
+#quotes_bar {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 3.5em 0;
+  background-color: #3AA3D4;
+  color: #FFFFFF;
+}
+
+#quotes_bar header h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* Life Cover Bar */
+#lifeCover {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 3.5em 0;
+  background-color: #3AA3D4;
+  color: #FFFFFF !important;
+}
+
+.customA {
+  color: inherit;
+  cursor: pointer;
+}
+
+.customA:hover {
+  color: #206288;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #3AA3D4;
+  color: #ffffff;
+  border-color: white;
+}
+
+.news h3{
+  font-size: 40px;
+}
+
+/* Information about comparecover.com */
+.thumbnail .three {        
+    height: 500px;
+    overflow: auto;
+}
+
+.thumbnail .three img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.insurer:hover {
+  opacity: 0.75;
+}
+/* Promises */
+.positive {
+  color: #17a23a;
+}
+
+footer{
+  padding-top: 40px;
+  background-image: url("http://www.free-patterns.info/wp-content/uploads/2015/03/white-subtle-striped-dots-124214.png");
+  background-repeat: repeat;
+}
+
+#phone {
+  font-size: 30px;
+}
