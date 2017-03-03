@@ -163,31 +163,34 @@ html {
   border-color: white;
 }
 
-.news h3{
+.news h3 {
   font-size: 40px;
 }
 
 /* Information about comparecover.com */
-.thumbnail .three {        
-    height: 500px;
+@media (min-width: 992px) {
+  .three .caption {
+    min-height: 210px;
     overflow: auto;
+  }
 }
 
-.thumbnail .three img {
-    width: 100%;
-    height: auto;
-    display: block;
+.three img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .insurer:hover {
   opacity: 0.75;
 }
+
 /* Promises */
 .positive {
   color: #17a23a;
 }
 
-footer{
+footer {
   padding-top: 40px;
   background-image: url("http://www.free-patterns.info/wp-content/uploads/2015/03/white-subtle-striped-dots-124214.png");
   background-repeat: repeat;
@@ -195,4 +198,9 @@ footer{
 
 #phone {
   font-size: 30px;
+}
+
+/* Images fix */
+.center-img-responsive {
+  margin: 0 auto;  
 }
